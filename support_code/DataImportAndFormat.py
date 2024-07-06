@@ -54,8 +54,8 @@ def generate_filenames (prefix):
     """
     filenames = np.array([prefix+"N_2.csv",prefix+"N_14.csv",prefix+"N_38.csv",prefix+"N_54.csv",prefix+"N_66.csv",
                       prefix+"N_114.csv",prefix+"N_162.csv",prefix+"N_186.csv",prefix+"N_246.csv",prefix+"N_294.csv",
-                      prefix+"N_342.csv",prefix+"N_358.csv",prefix+"N_406.csv",prefix+"N_502.csv",prefix+"N_514.csv"])
-    numbers = [2, 14, 38, 54, 66, 114, 162, 186, 246, 294, 342, 358,406,502,514]
+                      prefix+"N_342.csv",prefix+"N_358.csv",prefix+"N_406.csv",prefix+"N_502.csv"])
+    numbers = [2, 14, 38, 54, 66, 114, 162, 186, 246, 294, 342, 358,406,502]
     return filenames, numbers
 
 
